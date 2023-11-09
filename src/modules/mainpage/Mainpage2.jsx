@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./mainpage.css";
 import { Routes, Route } from "react-router-dom";
 import Schedule from "../schedule/Schedule";
-import Sidebar from "../../components/sidebar/Sidebar";
+import Sidebar2 from "../../components/sidebar2/Sidebar2";
 
 
 
@@ -11,7 +11,7 @@ function Mainpage() {
   return (
     <div className="Dashboard">
       <div className="flex">
-        <Sidebar />
+        <Sidebar2 />
         <div className="h-screen flex-1 p-7">
           <h1 className="head"> Dashboard</h1>
           <section class="dashboard">
