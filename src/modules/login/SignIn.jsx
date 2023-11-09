@@ -26,7 +26,7 @@ function SignIn() {
   const handleSignIn = () => {
     if (email === '38516@iitu.edu.kz' && password === '123123') {
       navigate('/mainpage');
-    }if (email === '38516@iitu.edu.kz' && password === '123123') {
+    }if (email === '38515@iitu.edu.kz' && password === '123123') {
       navigate('/mainpage2');}
  else {
       setError('Incorrect email or password');
