@@ -16,7 +16,11 @@ function App() {
         <Routes>
           <Route index path="/" element={<SignIn />} />
           <Route index path="/mainpage" element={<MainPage />} />
+                    <Route index path="/mainpage2" element={<MainPage2 />} />
+
           <Route index path="/schedule" element={<Schedule />} />
+                    <Route index path="/schedule2" element={<Schedule2 />} />
+
           <Route path="/forgot-password" element={<ForgotPassword />} />
         </Routes>
       </BrowserRouter>
