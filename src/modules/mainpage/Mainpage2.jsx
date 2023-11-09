@@ -51,7 +51,7 @@ function Mainpage2() {
   );
 }
 
-export default Mainpage;
+export default Mainpage2;
 
 
 {/* // <div className="Mainpage">
