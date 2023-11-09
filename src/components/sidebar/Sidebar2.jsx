@@ -15,7 +15,7 @@ import user from "../../assets/images/user.png";
 
 
 
-function Sidebar() {
+function Sidebar2() {
     const [open, setOpen] = useState(true);
 
     const Menus = [
@@ -63,4 +63,4 @@ function Sidebar() {
     );
 }
 
-export default Sidebar;
+export default Sidebar2;
