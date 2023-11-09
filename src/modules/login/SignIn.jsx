@@ -24,13 +24,13 @@ function SignIn() {
   };
 
   const handleSignIn = () => {
-    if (email === '38516@iitu.edu.kz' && password === '123123') {
+    if (email === '38516@iitu.edu.kz' && password === '123123'){
       navigate('/mainpage');
     }
-    if (email === '38515@iitu.edu.kz' && password === '123123') {
-      navigate('/mainpage2');
-    }
- else {
+    if (email === '38515@iitu.edu.kz' && password === '124124') {
+      navigate("/mainpage2");
+    } 
+    else {
       setError('Incorrect email or password');
 
             // Clear the error state after a delay (e.g., 3 seconds)
@@ -46,21 +46,21 @@ function SignIn() {
       <div className="content">
         <div className="text">Sign In</div>
         <form action="#">
-        <div className={`field ${error ? 'error' : ''}`}>
+        <div className={field ${error ? 'error' : ''}}>
             <input
               required=""
               type="text"
-              className={`input ${error ? 'error' : ''}`}
+              className={input ${error ? 'error' : ''}}
               placeholder="Email"
               value={email}
               onChange={handleEmailChange}
             />
           </div>
-          <div className={`field ${error ? 'error' : ''}`}>
+          <div className={field ${error ? 'error' : ''}}>
             <input
               required=""
               type="password"
-              className={`input ${error ? 'error' : ''}`}
+              className={input ${error ? 'error' : ''}}
               placeholder="Password"
               value={password}
               onChange={handlePasswordChange}
@@ -68,7 +68,7 @@ function SignIn() {
           </div>
           {error && <p className="error-message">{error}</p>}
 
-{/*           <div className='help'>
+          {/* <div className='help'>
             <div className="rem">
               <input
                 className="rememberInput"
@@ -96,6 +96,3 @@ function SignIn() {
 }
 
 export default SignIn;
-
-
-
