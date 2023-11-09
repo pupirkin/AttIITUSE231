@@ -4,7 +4,7 @@ import "../mainpage/mainpage.css";
 import Header from "../../components/header/Header";
 import Sidebar from "../../components/sidebar/Sidebar";
 
-function Schedule() {
+function Schedule2() {
   return (
     <div className="Dashboard">
       <div className="flex">
