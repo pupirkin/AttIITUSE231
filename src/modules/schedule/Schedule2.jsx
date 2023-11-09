@@ -2,13 +2,13 @@ import React from "react";
 import "./schedule.css";
 import "../mainpage/mainpage.css";
 import Header from "../../components/header/Header";
-import Sidebar from "../../components/sidebar/Sidebar";
+import Sidebar2 from "../../components/sidebar/Sidebar2";
 
 function Schedule2() {
   return (
     <div className="Dashboard">
       <div className="flex">
-        <Sidebar />
+        <Sidebar2 />
         <div className="h-screen flex-1 p-7">
           <h1 className="head">Schedule</h1>
           <section className="dashboard">
