@@ -7,7 +7,7 @@ import Sidebar2 from "../../components/sidebar2/Sidebar2";
 
 
 
-function Mainpage() {
+function Mainpage2() {
   return (
     <div className="Dashboard">
       <div className="flex">
