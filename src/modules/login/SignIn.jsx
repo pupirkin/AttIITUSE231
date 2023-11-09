@@ -64,7 +64,7 @@ function SignIn() {
           </div>
           {error && <p className="error-message">{error}</p>}
 
-          <div className='help'>
+{/*           <div className='help'>
             <div className="rem">
               <input
                 className="rememberInput"
@@ -81,7 +81,7 @@ function SignIn() {
             <div className="forgot-pass">
               <a href="/forgot-password">Forgot Password?</a>
             </div>
-          </div>
+          </div> */}
           <button className="buttonLogin" onClick={handleSignIn}>
             Login
           </button>
