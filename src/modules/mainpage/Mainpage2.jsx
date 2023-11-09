@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./mainpage.css";
 import { Routes, Route } from "react-router-dom";
 import Schedule from "../schedule/Schedule";
-import Sidebar2 from "../../components/sidebar2/Sidebar2";
+import Sidebar2 from "../../components/sidebar/Sidebar2";
 
 
 
