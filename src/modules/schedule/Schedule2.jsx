@@ -47,4 +47,4 @@ function Schedule2() {
   );
 }
 
-export default Schedule;
+export default Schedule2;
